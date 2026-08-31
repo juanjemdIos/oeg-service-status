@@ -32,7 +32,7 @@
   {
     "name": "fairos-api",
     "service_url": "https://fairos.linkeddata.es",
-    "status_http_code": 503,
+    "status_http_code": 200,
     "timestamp": 1787841006000
   },
   {

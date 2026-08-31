@@ -2,13 +2,13 @@
   {
     "name": "autocodemeta",
     "service_url": "https://autocodemeta.linkeddata.es",
-    "status_http_code": 200,
+    "status_http_code": 503,
     "timestamp": 1787841006000
   },
   {
     "name": "softalias",
     "service_url": "https://softalias-rs.linkeddata.es/",
-    "status_http_code": 200,
+    "status_http_code": 503,
     "timestamp": 1787841006000
   },
   {
@@ -20,7 +20,7 @@
   {
     "name": "calculator",
     "service_url": "https://calculator.linkeddata.es/",
-    "status_http_code": 200,
+    "status_http_code": 503,
     "timestamp": 1787841006000
   },
   {
@@ -32,8 +32,9 @@
   {
     "name": "fairos-api",
     "service_url": "https://fairos.linkeddata.es",
-    "status_http_code": 200,
+    "status_http_code": 503,
     "timestamp": 1787841006000
+    
   },
   {
     "name": "p2mc",
@@ -50,7 +51,7 @@
   {
     "name": "rsfc",
     "service_url": "https://rsfc.linkeddata.es",
-    "status_http_code": 503,
+    "status_http_code": 200,
     "timestamp": 1787841006000
   },
   {

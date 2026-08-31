@@ -22,7 +22,7 @@ JSON_PATH = BASE_DIR / "services_status.json"
 TEMPLATE_PATH = BASE_DIR / "index_template.html"
 OUTPUT_PATH = BASE_DIR / "index.html"
 
-PAGE_TITLE = "Services Status"
+PAGE_TITLE = "OEG Services Status"
 
 
 def load_services(json_path: Path) -> list[dict]:
@@ -37,8 +37,9 @@ def format_timestamp(timestamp_ms: int) -> str:
 
 
 def build_context(services: list[dict]) -> dict:
+    sorted_services = sorted(services, key=lambda s: s["name"].lower())
     enriched_services = []
-    for service in services:
+    for service in sorted_services:
         status_code = service["status_http_code"]
         enriched_services.append(
             {

@@ -19,7 +19,7 @@ An external daemon (not part of this repository) periodically checks a set of se
 Whenever that file changes (or the workflow is run manually), a GitHub Action:
 
 1. Runs [`generate_index.py`](./generate_index.py), which reads `services_status.json`, formats each timestamp into a readable UTC date/time, and determines whether each service is up (`status_http_code` in the 2xx range).
-2. Renders that data into [`index.html.mustache`](./index.html.mustache) using [pystache](https://github.com/PennyDreadfulMTG/pystache) to produce `index.html`, a simple table with a green/red indicator per service.
+2. Renders that data into [`index_template.html`](./index_template.html) using [pystache](https://github.com/PennyDreadfulMTG/pystache) to produce `index.html`, a simple table with a green/red indicator per service.
 3. Publishes `index.html` to GitHub Pages.
 
 ## Project structure

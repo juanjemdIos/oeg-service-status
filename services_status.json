@@ -50,7 +50,7 @@
   {
     "name": "rsfc",
     "service_url": "https://rsfc.linkeddata.es",
-    "status_http_code": 200,
+    "status_http_code": 503,
     "timestamp": 1787841006000
   },
   {

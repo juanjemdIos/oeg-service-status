@@ -8,7 +8,7 @@
   {
     "name": "softalias",
     "service_url": "https://softalias-rs.linkeddata.es/",
-    "status_http_code": 200,
+    "status_http_code": 503,
     "timestamp": 1787841006000
   },
   {

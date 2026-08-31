@@ -100,11 +100,5 @@
     "service_url": "https://foops.linkeddata.es/FAIR_validator.html",
     "status_http_code": 200,
     "timestamp": 1787841006000
-  },
-  {
-    "name": "prueba commit",
-    "service_url": "https://prueba.es",
-    "status_http_code": 200,
-    "timestamp": 1787841006000
   }
 ]

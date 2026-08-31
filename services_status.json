@@ -14,7 +14,7 @@
   {
     "name": "c2t",
     "service_url": "https://c2t.linkeddata.es/",
-    "status_http_code": 503,
+    "status_http_code": 200,
     "timestamp": 1787841006000
   },
   {
